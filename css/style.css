@@ -1,0 +1,200 @@
+/* Hannah, This is just a draft with guideline elements that currently are in html files. 
+Please feel free to change, add, delete design as you see fit. Also, do not hesitate to change class/id name if it should have thier unique design, etc.
+Please note that this style sheets are for all main html pages in this project.
+There are <hr> in html which is line break on the webpage. Depending on your design, you could space each section out and remove this line break.
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+/* All pages - Top navigation bar */
+.mainNav ul {
+    margin: 0;
+}
+
+.mainNav li {
+    display: inline;
+}
+
+.mainNav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.mainNav {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.mainNav li {
+    padding: 0 8%;
+}
+
+.mainNav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+/* All pages - Main Header area section */
+.mainHeader {
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url("img/library3.jpg");  /* have a problem to load image, need to check */
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.siteName {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: fantasy;
+    font-weight: normal;
+    color: white;
+}
+
+.siteNameLarge {
+    font-size: 4em;
+    padding-top: 40px;
+}
+
+/* All pages - main footer  */
+.mainFooter {
+    background-color: darkred;
+    color: white;
+    padding: .25em 0;
+}
+
+.mainFooterContainer {
+    display: flex;
+    align-items: center;
+}
+
+.mainFooterContainer ul {
+    flex-grow: 1;
+    text-align: end;
+    list-style: none;
+}
+
+.footerNav li {
+    padding: 0 .5em;
+}
+
+.footerNav img {
+    width: 30px;
+    height: 30px;
+}
+
+/* for about page (our story) - main content */
+.contentSection {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.sectionHeader {
+    font-family: cursive;
+    font-weight: normal;
+    color: #333333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.quoteImage {
+    float: left;
+    height: 200px;
+    width: 250px;
+    margin: 0px 15px 15px 15px;
+    border-radius: 50%;
+}
+
+/* for Index page - carousel contents */
+
+/* This .container will be deleted in the future, to replace with Aishah
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} */
+
+.clearFix {
+    clear: both;
+} 
+
+.quoteDisplay{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Create three equal column for images */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.textbox{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+/* for unique items on bookDetail page */
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#sidebar {
+    float: right;
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid darkblue;
+    box-sizing: border-box;
+}
+.container2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* button {
+
+} */
+
+/* We need to also design for mobile device */
+@media (max-width:600px){
+    #main, #sidebar, .column, .container {
+        width: 100%;
+        float: none;
+        border: none;
+    }
+}
