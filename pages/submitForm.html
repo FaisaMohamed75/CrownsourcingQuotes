@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <meta name="description" content="Crowdsourcing quotes">
+    <meta name="keywords" content="quotes,book,movie,film">
+    <meta name="author" content="Aishah Qurashi, Faisa Mohamed, Hannah Haddad, Suwanna Truss">
+    <title>Crowdsourcing quotes</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header is same on each page -->
+    <header class="mainHeader">
+        <nav class="nav mainNav">
+            <div class="container">
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="pages/about.html">Our Story</a></li>
+                    <li> <a href="pages/submitForm.html">Submit Quote</a></li>
+                </ul>
+            </div>
+        </nav>
+            <h1 class="siteName siteNameLarge">Crowdsourcing Quotes From Books</h1>
+    </header>
+
+    <!-- <form action="server.php">  this is for the future when we have database backend-->
+    <!-- Suwanna, to increase textbox space for quote and find the way to collect all this input to array or object of variable. Also to write JS for Submit button, to connent to show result or link to out thank you page. -->
+    <div class="container">
+        <fieldset>
+            <legend>Submit the quote you love</legend>
+            Quote:
+            <input type="text" name="quote" value="" placeholder=""><br>
+            Book title:
+            <input type="text" name="title" value="" placeholder=""><br>
+            About: 
+            <input type="radio" name="options"> Love
+            <input type="radio" name="options"> Inspriation
+            <input type="radio" name="options"> Friendship<br>
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="button">Submit</button>
+        </fieldset>
+    </div>
+</body>
+<footer class="mainFooter">
+    <div class="container mainFooterContainer">
+        <h5 class="siteName">Crowdsourcing Quotes</h5>
+        <ul class="nav footerNav">
+            <li>
+                <p>Copyright &copy; 2020 CFG WEB DEV (Aishah Qurashi, Faisa Mohamed, Hannah Haddad, Suwanna Truss)</p>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="blank">
+                    <img src="" alt="Facebook Logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="blank">
+                    <img src="" alt="Twitter Logo">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</html>
