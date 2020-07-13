@@ -30,7 +30,6 @@ html, body {
 .mainNav a {
     display: inline-block;
     padding: .5em;
-    color: white;
     text-decoration: none;
 }
 
@@ -38,6 +37,7 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
+    color: white;
 }
 
 .mainNav {
@@ -55,7 +55,7 @@ html, body {
 /* All pages - Main Header area section */
 .mainHeader {
     background-color: rgba(0, 0, 0, .4);
-    background-image: url("img/library3.jpg");  /* have a problem to load image, need to check */
+    background-image: url("../img/library3.jpg");  /* have a problem to load image, need to check */
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -77,7 +77,7 @@ html, body {
 
 /* All pages - main footer  */
 .mainFooter {
-    background-color: darkred;
+    background-color: rgba(48, 11, 11, 0.918);
     color: white;
     padding: .25em 0;
 }
@@ -177,7 +177,7 @@ html, body {
     float: right;
     width: 30%;
     padding: 10px;
-    border-left: 1px solid darkblue;
+    border-left: 1px solid black;
     box-sizing: border-box;
 }
 .container2 {
