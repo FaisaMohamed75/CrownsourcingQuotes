@@ -8,25 +8,27 @@
     <meta name="description" content="Crowdsourcing quotes">
     <meta name="keywords" content="quotes,book,movie,film">
     <meta name="author" content="Aishah Qurashi, Faisa Mohamed, Hannah Haddad, Suwanna Truss">
-    <title>Crowdsourcing quotes</title>
+    <title>Home - Crowdsourcing quotes</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
+  <div id="siteContainer">
     <!-- Header is same on each page -->
-    <header class="mainHeader">
+    <div id="siteHeader">
+      <header class="mainHeader">
         <nav class="nav mainNav">
-            <div class="container">
-                <ul>
-                    <li> <a href="index.html">Home</a></li>
-                    <li> <a href="./pages/about.html">Our Story</a></li>
-                    <li> <a href="./pages/submitForm.html">Submit Quote</a></li>
-                </ul>
-            </div>
+          <div class="container">
+            <ul>
+              <li> <a href="index.html">Home</a></li>
+              <li> <a href="./pages/about.html">Our Story</a></li>
+              <li> <a href="./pages/submitForm.html">Submit Quote</a></li>
+            </ul>
+          </div>
         </nav>
-            <h1 class="siteName siteNameLarge">Crowdsourcing Quotes From Books</h1>
-    </header>
-
+        <h1 class="siteName siteNameLarge">Crowdsourcing Quotes From Books</h1>
+      </header>
+    </div>
+    <div id="siteBody">
 
     <!-- This section will be remove and replace with Aishah's Carousel and filter section -->
     <!-- <div class="container">
@@ -48,7 +50,7 @@
         </select>
     </div> -->
     
-    <div class="quoteDisplay">
+      <div class="quoteDisplay">
         <!-- Start with 3 images display in horizontal with 3-5 images for each categories; 
             Extension: change display format to either add slide bars (like slide show) or to carousel, once we research how to do it.-->
         <h2>Quotes about love</h2>
@@ -83,9 +85,9 @@
             </a>
         </div>
         <div class="clearFix"></div>
-    </div>
-    <hr>
-    <div class="quoteDisplay">
+      </div>
+      <hr>
+      <div class="quoteDisplay">
         <h2>Quotes about wisdom</h2>
          <!-- Option / Second stage: go to our book detail webpage and they can be redirected to other wesite to buy or read other information.  -->
             <!-- Note: We could also ask them to choose which categories is best suit them for this quote. This help us gather what people feels about each quote (people's feeling, emotion) -->
@@ -156,29 +158,29 @@
         </div>
 
         <div class="clearFix"></div>
+      </div>
     </div>
-
-</body>
-
-<footer class="mainFooter">
-    <div class="container mainFooterContainer">
-        <h5 class="siteName">Crowdsourcing Quotes</h5>
-        <ul class="nav footerNav">
-            <li>
-                <p>Copyright &copy; 2020 CFG WEB DEV (Aishah Qurashi, Faisa Mohamed, Hannah Haddad, Suwanna Truss)</p>
-            </li>
-            <li>
+    <div id="siteFooter">
+        <footer class="mainFooter">
+          <div class="mainFooterContainer">
+            <h5 class="siteName">Crowdsourcing Quotes</h5>
+            <ul class="nav footerNav">
+              <li>Copyright &copy; 2020 CFG WEB DEV <!--(Aishah Qurashi, Faisa Mohamed, Hannah Haddad, Suwanna Truss)-->
+              </li>
+              <li>
                 <a href="https://www.facebook.com" target="blank">
-                    <img src="" alt="Facebook Logo">
+                  <img src="" alt="Facebook Logo">
                 </a>
-            </li>
-            <li>
+              </li>
+              <li>
                 <a href="https://www.twitter.com" target="blank">
-                    <img src="" alt="Twitter Logo">
+                  <img src="" alt="Twitter Logo">
                 </a>
-            </li>
-        </ul>
+              </li>
+            </ul>
+          </div>
+        </footer>
     </div>
-</footer>
-
+  </div>
+</body>
 </html>
