@@ -12,22 +12,26 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- Header is same on each page -->
-    <header class="mainHeader">
-        <nav class="nav mainNav">
+    <div id="siteContainer">
+      <!-- Header is same on each page -->
+      <div id="siteHeader">
+        <header class="mainHeader">
+          <nav class="nav mainNav">
             <div class="container">
-                <ul>
-                    <li> <a href="../index.html">Home</a></li>
-                    <li> <a href="about.html">Our Story</a></li>
-                    <li> <a href="submitForm.html">Submit Quote</a></li>
-                </ul>
+              <ul>
+                <li> <a href="../index.html">Home</a></li>
+                <li> <a href="about.html">Our Story</a></li>
+                <li> <a href="submitForm.html">Submit Quote</a></li>
+              </ul>
             </div>
-        </nav>
-            <h1 class="siteName siteNameLarge">Crowdsourcing Quotes From Books</h1>
-    </header>
-    <section class="contentSection container2">
+          </nav>
+          <h1 class="siteName siteNameLarge">Crowdsourcing Quotes From Books</h1>
+        </header>
+      </div>
+    <div id="siteBody">
+      <section class="contentSection container2">
         <section id="main">
-            <h2>Book's Name</h2>
+          <h2 class="sectionHeader">Book's Name</h2>
             <img src="./img/cover_The Fellowship of the rings.jpg" alt="book cover" width="200">
             <p>Detail about book<br>Lorem ipsum dolor sit, amet consectetur adipisici, neque temporibus ducimus, iusto amet ab consectetur? Accusamus, tenetur fugit.</p>
             <ul>
@@ -49,27 +53,30 @@
                 <a href="https://www.goodreads.com/work/quotes/3204327-the-fellowship-of-the-ring" target="_blank"></a>
             </button>
         </aside>
-    </section>
-    <section class="clearFix"></section>
-</body>
-<footer class="mainFooter">
-    <div class="container mainFooterContainer">
-        <h5 class="siteName">Crowdsourcing Quotes</h5>
-        <ul class="nav footerNav">
-            <li>
-                <p>Copyright &copy; 2020 CFG WEB DEV (Aishah Qurashi, Faisa Mohamed, Hannah Haddad, Suwanna Truss)</p>
-            </li>
-            <li>
+      </section>
+      <section class="clearFix"></section>
+    </div>  
+    <div id="siteFooter">
+        <footer class="mainFooter">
+          <div class="mainFooterContainer">
+            <h5 class="siteName">Crowdsourcing Quotes</h5>
+            <ul class="nav footerNav">
+              <li>Copyright &copy; 2020 CFG WEB DEV <!--(Aishah Qurashi, Faisa Mohamed, Hannah Haddad, Suwanna Truss)-->
+              </li>
+              <li>
                 <a href="https://www.facebook.com" target="blank">
-                    <img src="" alt="Facebook Logo">
+                  <img src="" alt="Facebook Logo">
                 </a>
-            </li>
-            <li>
+              </li>
+              <li>
                 <a href="https://www.twitter.com" target="blank">
-                    <img src="" alt="Twitter Logo">
+                  <img src="" alt="Twitter Logo">
                 </a>
-            </li>
-        </ul>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
     </div>
-</footer>
+  </body>
 </html>
